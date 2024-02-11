@@ -1,0 +1,111 @@
+waterfill(4,3):-
+
+waterfill(0,0).
+
+waterfill(0,0):-
+
+write("\nJugl capacity: 4\n\ri), write('Jug 2 capacity: 3\n),
+
+write("\n\nStep1), write("\n--\n'),
+
+write("\nJug10 and Jug20),
+
+write("\nBoth jugs are empty\n'),
+
+waterfill (4,0).
+
+waterfill(4,0)-
+
+write("\n\nStep2'),
+
+write("\n--\n),
+
+write("\nJug14 and Jug2=0),
+
+write("\nWe fill the Jug 1 to the maximum\n),
+
+waterfill(1,3).
+
+waterfill(1,3)-
+
+write("\n\nStep3),
+
+write("\n--\n),
+
+write("\nJug1 =1 and Jug2= 3),
+
+write(\nWith Jug1, we fill Jug2 to it
+
+maximum(3lt)),
+
+write("\nJugl remains with 1lt),
+
+waterfill (1,0).
+
+waterfill(1,0):-
+
+write("\n\nStep4"), write("\n--\n),
+
+write("\nJug1 =1 and Jug20),
+
+write("\nWith jug 1 having 1lt, we empty the
+
+waterfill(0,1).
+
+jug2\n),
+
+waterfill(0,1)-
+
+write("\n\nStep5'), write("\n--\n),
+
+write("\nJug1 = 0 and Jug2=1'),
+
+write("\nin this step we just transfer the water in
+
+jug1 to jug2\ri),
+
+waterfill (4,1).
+
+waterfill (4,1):-
+
+write("\n\nStep6'),
+
+write("\n--\n),
+
+write("\nJug14 and Jug2=1'),
+
+write("\nLets fill again jug1 to it maximum (4lt)\ri),
+
+waterfill (2,2).
+
+waterfill(2,2):-
+
+write("\n\nStep7'), write("\n--\n),
+
+write("\nJug1 = 2 and Jug22), write("\nBy filling the jug2 with the water in jug1,
+
+jug1 remains with 2lt\n'),
+
+waterfill (2,0).
+
+waterfill (2,0):-
+
+write("\n\nStep8), write("\n--\n),
+
+write("\nJug12 and Jug2=0'),
+
+write("\n By Filling Jug1=2 And Jug2=0\n), waterfill(0,2).
+
+waterfill(0,2)- write("\n\nStep9),
+
+write("\n--\n),
+
+write('Jug1=0 and Jug2=2), write("\nBy Emptying The Jug1 \n').
+
+write("\n\nDone!!!!!!\n).
+
+waterfill(X,Y):-
+
+write('Jug1',X),
+
+write('Jug2,Y), waterfill (4,3).

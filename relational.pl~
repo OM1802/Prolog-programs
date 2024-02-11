@@ -1,0 +1,4 @@
+gt(X,Y):-
+    X>=Y,write('X IS GREATER OR EQUAL').
+gt(X,Y):-
+    X<Y,write('X IS SMALLER').
