@@ -1,0 +1,4 @@
+%Concatenating two list
+concatenate([], L, L).
+concatenAate([H|T1], L, [H|T2]) :- 
+concatenate(T1, L, T2).
