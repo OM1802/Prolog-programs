@@ -1,0 +1,4 @@
+reverse_list([], []).
+reverse_list([HIT], Reversed) :- 
+reverse_list(T, ReversedT), 
+append(ReversedT, [H], Reversed).
