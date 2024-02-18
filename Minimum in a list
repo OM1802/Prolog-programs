@@ -1,0 +1,4 @@
+min_list([Min], Min). 
+min_list([HIT], Min) :-
+min_list(T, Min 1), 
+Min is min(H, Min1).
