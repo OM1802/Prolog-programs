@@ -1,0 +1,4 @@
+max_list([Max], Max). 
+max_list([HIT], Max) :- 
+max_list(T, Max1), 
+Max is max(H, Max1).
