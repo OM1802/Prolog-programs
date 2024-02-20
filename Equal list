@@ -1,0 +1,5 @@
+lists_equal([], []).
+lists_equal([H1|T1], 
+[H2|T2]) :- 
+H1 = H2, 
+lists_equal(T1, T2).
