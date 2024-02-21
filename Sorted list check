@@ -1,0 +1,5 @@
+sorted([]).
+sorted([]).
+sorted([X,YIT]) :-
+X =< Y,
+sorted([YIT]).
