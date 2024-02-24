@@ -1,0 +1,5 @@
+is_odd(1).
+is_odd(X) :-
+X > 1,
+X1 is X-2,
+is_odd(X1).
