@@ -1,0 +1,11 @@
+% Base case: If the list is empty, then the result is also an empty list.
+delete(_, [], []).
+
+% If the element to be deleted is the head of the list, then skip it and recursively process the tail.
+delete(X, [X|T], Result) :-
+    delete(X, T, Result).
+
+% If the element to be deleted is not the head of the list, keep the head and recursively process the tail.
+delete(X, [H|T], [H|Result]) :-
+    X \= H,
+    delete(X, T, Result).
