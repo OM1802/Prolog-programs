@@ -1,0 +1,4 @@
+all_unique([]).
+all_unique([HIT]) :-
+\+ member(H, T),
+all_unique(T).
