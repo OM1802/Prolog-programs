@@ -1,0 +1,8 @@
+sum_odd([], 0).
+sum_odd([HIT], Sum) :- 
+H mod 2 =\= 0, 
+sum_odd(T, Sum1),
+Sum is Sum1 + H.
+sum_odd([HIT], Sum) :- 
+H mod 2 =:= 0, 
+sum_odd(T, Sum).
