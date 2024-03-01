@@ -1,0 +1,6 @@
+merge([], L, L).
+merge(L, [], L).
+merge([X|Xs], [YIYs], [XZs]):- 
+X =< Y, merge(Xs, [Y|Ys], Zs).
+merge([X|Xs], [YYs], [Y|Zs]):- X>Y,
+merge([X|Xs], Ys, Zs).
