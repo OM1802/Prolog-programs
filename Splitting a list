@@ -1,0 +1,5 @@
+(List, Half1, Half2):- 
+length(List, Len), 
+HalfLen is Len // 2, 
+length(Half1, HalfLen), 
+append(Half1, Half2, List).
