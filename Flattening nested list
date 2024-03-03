@@ -1,0 +1,7 @@
+flatten_list([], []).
+flatten_list([X|Xs], Flat) :-
+!, 
+flatten_list(X, FlatX), 
+flatten_list(Xs, FlatXs), 
+append(FlatX, FlatXs, Flat). 
+flatten_list(X, [X]).
