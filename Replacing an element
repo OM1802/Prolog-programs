@@ -1,0 +1,4 @@
+replace_at(1, X, [_[XS], [X|Xs]).
+replace_at(N, X, [Y|Xs], [Y|Ys]) :- 
+N > 1, N1 is N - 1, 
+replace_at(N1, X, Xs, Ys).
