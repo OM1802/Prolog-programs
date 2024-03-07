@@ -1,0 +1,5 @@
+powerset ([], []).
+powerset ([X|Xs], [XP]) :- 
+powerset(Xs, P). 
+powerset([_[XS], P) :- 
+powerset(Xs, P).
