@@ -1,0 +1,2 @@
+consecutive_list(Start, End, List) :- 
+findall(X, between (Start, End, X), List).
